@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="xxvidownloader.video.xxvi.downloader.videos.saver.fragments.ViewPagerFragment"
+        android:label="ViewPagerFragment"
+        tools:layout="@layout/fragment_view_pager"/>
+    <fragment
+        android:id="@+id/videoPlayerFragment"
+        android:name="xxvidownloader.video.xxvi.downloader.videos.saver.fragments.VideoPlayerFragment"
+        android:label="fragment_video_player"
+        tools:layout="@layout/fragment_video_player" />
+    <fragment
+        android:id="@+id/downloadsFragment"
+        android:name="xxvidownloader.video.xxvi.downloader.videos.saver.fragments.DownloadsFragment"
+        android:label="DownloadsFragment"
+        tools:layout="@layout/fragment_downloads"/>
+    <fragment
+        android:id="@+id/privacyPolicyFragment"
+        android:name="xxvidownloader.video.xxvi.downloader.videos.saver.fragments.PrivacyPolicyFragment"
+        android:label="PrivacyPolicyFragment"
+        tools:layout="@layout/fragment_privacy_policy"/>
+    <dialog
+        android:id="@+id/noInternetConnectionFragment"
+        android:name="xxvidownloader.video.xxvi.downloader.videos.saver.fragments.NoInternetConnectionFragment"
+        android:label="NoInternetConnectionFragment"
+        tools:layout="@layout/fragment_internet_connection"/>
+</navigation>

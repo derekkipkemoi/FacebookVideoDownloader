@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:id="@+id/bottomSheetContainer"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bottom_sheet_background">
+            <TextView
+                android:id="@+id/textView_car_name"
+                style="@style/textStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/select_video"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary" />
+
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <android.widget.Button
+                    android:id="@+id/button_play"
+                    style="@style/textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background_transparent"
+                    android:drawableStart="@drawable/ic_stream"
+                    android:drawablePadding="50dp"
+                    android:gravity="start"
+                    android:text="@string/play_now"
+                    android:textAllCaps="false" />
+
+                <android.widget.Button
+                    android:id="@+id/button_rePost"
+                    style="@style/textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background_transparent"
+                    android:drawableStart="@drawable/ic_repost"
+                    android:drawablePadding="50dp"
+                    android:gravity="start"
+                    android:text="@string/rePost"
+                    android:textAllCaps="false" />
+
+                <android.widget.Button
+                    android:id="@+id/button_share"
+                    style="@style/textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background_transparent"
+                    android:drawableStart="@drawable/ic_share_colored"
+                    android:drawablePadding="50dp"
+                    android:gravity="start"
+                    android:text="@string/share"
+                    android:textAllCaps="false" />
+
+                <android.widget.Button
+                    android:id="@+id/button_delete"
+                    style="@style/textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_background_transparent"
+                    android:drawableStart="@drawable/ic_delete"
+                    android:drawablePadding="50dp"
+                    android:gravity="start"
+                    android:text="@string/delete"
+                    android:textAllCaps="false" />
+
+            </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</layout>

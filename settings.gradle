@@ -1,0 +1,3 @@
+include ':nativetemplates'
+rootProject.name = "Facebook Video Downloader Admob Signet"
+include ':app'

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000090</color>
+    <color name="colorPrimaryTransparent">#752196F3</color>
+    <color name="colorPrimaryDark">#00BCD4</color>
+    <color name="colorAccent">#9C27B0</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPaleWhite">#EEEAEA</color>
+    <color name="colorDownloads">#1234</color>
+    <color name="player_background">#000</color>
+    <color name="colorBlack">#000</color>
+    <color name="coloBackground">#3b5998</color>
+    <color name="colorGreen">#4CAF50</color>
+    <color name="colorLightGreen">#81E40D</color>
+    <color name="colorOrange">#FF5722</color>
+</resources>

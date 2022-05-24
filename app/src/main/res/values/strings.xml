@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">XXVI Video Downloader</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go_back">Back</string>
+    <string name="go_forward">Forward</string>
+    <string name="refresh">Refresh</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="todo">TODO</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share App</string>
+    <string name="more_apps">More Apps</string>
+    <string name="how_to_use">How to use</string>
+
+    <string name="navigation_drawer_open">Drawer Opened</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="remove_ad">Remove Ad</string>
+    <string name="downloads_video">Download</string>
+    <string name="stream_video">Stream Video</string>
+    <string name="select_video">Select Action</string>
+    <string name="downloads">Downloads</string>
+    <string name="channel_name">Notification One</string>
+    <string name="channel_description">Channel One Download Description</string>
+    <string name="paste_facebook">Enter Video Link Here</string>
+    <string name="paste_facebook2">Enter site url here</string>
+    <string name="paste_link">Paste Link</string>
+    <string name="download">Download</string>
+    <string name="video_size">Video Size</string>
+    <string name="file_length">File Length</string>
+    <string name="play_now">Play Now</string>
+    <string name="rePost">Repost</string>
+    <string name="share">Share</string>
+    <string name="file_name">File Name</string>
+    <string name="this_is_video_title">This is Video title</string>
+    <string name="_555">555</string>
+    <string name="video_list">Video List</string>
+    <string name="send_to">Send To Facebook</string>
+    <string name="how_to_download_with_link">How to download with link</string>
+    <string name="open_facebook_and_copy_link">Open Facebook and Copy Link</string>
+    <string name="got_it">Got it</string>
+    <string name="click_the_video_to_download">Click the video to download</string>
+    <string name="log_in_facebook">Log In</string>
+    <string name="how_to_download_with_browse">How to download with browse</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="reload_app">Reload App</string>
+    <string name="no_active_internet_connection">No active internet connection</string>
+    <string name="open_settings">Setting</string>
+    <string name="native_id">ca-app-pub-8107055991555224/5928454228</string>
+    <string name="interstitial_id">ca-app-pub-8107055991555224/3138353944</string>
+    <string name="get_video">Download</string>
+</resources>

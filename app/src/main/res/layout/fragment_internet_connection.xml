@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!-- Tab Layout for creating tabs -->
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="@string/no_active_internet_connection"
+                style="@style/textStyleWarn"
+                android:layout_gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_gravity="center"
+                android:layout_width="80sp"
+                android:layout_height="100sp"
+                app:srcCompat="@drawable/ic_wifi"/>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_margin="5dp"
+           android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.widget.Button
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:id="@+id/open_settings"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/how_to_use_background_button"
+                android:text="@string/open_settings" />
+
+            <android.widget.Button
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:id="@+id/reload_app"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/how_to_use_background_button"
+                android:text="@string/reload_app" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</layout>

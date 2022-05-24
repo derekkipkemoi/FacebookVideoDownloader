@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragments.UrlLinkFragment">
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/top_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:elevation="30dp"
+            app:cardElevation="5dp"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/video_url_link"
+                    style="@style/textStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/edit_text_background"
+                    android:hint="@string/paste_facebook"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:tooltipText="Paste Facebook Link Here" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:weightSum="2"
+                    app:layout_constraintTop_toBottomOf="@+id/video_url_link">
+
+
+                    <android.widget.Button
+                        android:id="@+id/button_paste"
+                        style="@style/ButtonPasteStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/paste_button_background"
+                        android:drawableEnd="@drawable/ic_paste"
+                        android:text="@string/paste_link"
+                        android:textAllCaps="false" />
+
+                    <android.widget.Button
+                        android:id="@+id/button_download"
+                        style="@style/ButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_background_light_blue"
+                        android:drawableEnd="@drawable/ic_download"
+                        android:text="@string/get_video"
+                        android:textAllCaps="false" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/adCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="30dp"
+            app:cardElevation="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/top_card_view">
+
+            <com.google.android.ads.nativetemplates.TemplateView
+                android:id= "@+id/nativeTemplateView"
+                app:gnt_template_type= "@layout/gnt_medium_template_view"
+                android:layout_width= "match_parent"
+                android:layout_height= "match_parent" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="30dp"
+            app:cardElevation="5dp"
+            app:layout_constraintTop_toBottomOf="@+id/adCard">
+
+            <android.widget.Button
+                android:id="@+id/button_how"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_light_blue"
+                android:drawableEnd="@drawable/ic_how_to_icon"
+                android:text="@string/how_to_use"
+                android:textAllCaps="false" />
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

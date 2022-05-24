@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.VideoPlayerFragment">
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id= "@+id/nativeTemplateView"
+        app:gnt_template_type= "@layout/gnt_small_template_view"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content" />
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/exoplayerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorBlack"
+        app:controller_layout_id="@layout/custom_playback_view"
+        app:hide_on_touch="true"
+        app:player_layout_id="@layout/exo_player_view"
+        app:resize_mode="fit"
+        app:show_timeout="4000"
+        app:surface_type="surface_view"
+        app:shutter_background_color="@color/colorBlack"
+        app:use_controller="true" />
+</LinearLayout>
+</layout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.3609375" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/drawable/button_background_light_blue.xml" value="0.3609375" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/drawable/searchview_background.xml" value="0.3609375" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/activity_main.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/custom_menu_layout.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/custom_playback_view.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_browse.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_browse_facebook.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_downloads.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_how_to_use_browse.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_how_to_use_dialog.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_how_to_use_url_link.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_link.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_no_internet_connection.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_paste_link.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_privacy_policy.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_url_link.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_video_detaill_dialog.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_video_more_action_dialog.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/fragment_video_player.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/item_video.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/layout_loading_dialog.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/layout/nav_header.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/menu/facebook_web.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/menu/nav_menu.xml" value="0.34479166666666666" />
+        <entry key="..\:/Users/derek/AndroidStudioProjects/FacebookVideoDownloaderAdmobSignet/app/src/main/res/menu/toolbar_navigation_menu.xml" value="0.34479166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

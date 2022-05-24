@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/share"
+        android:title="@string/share_app"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_share_icon"/>
+
+    <item android:id="@+id/moreApps"
+        android:title="@string/more_apps"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_more_apps_icon"/>
+
+    <item android:id="@+id/howTo"
+        android:icon="@drawable/ic_how_to_icon"
+        android:title="@string/how_to_use"/>
+
+    <item android:id="@+id/privacyPolicy"
+        android:icon="@drawable/ic_privacy_icon"
+        android:title="@string/privacy_policy"/>
+</menu>

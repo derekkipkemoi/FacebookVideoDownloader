@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources xmlns:tools="http://schemas.android.com/tools">
+        <!-- Base application theme. -->
+        <style name="Theme.KotlinFacebookVideoDownloader" parent="Theme.MaterialComponents.Light.NoActionBar">
+            <!-- Primary brand color. -->
+            <item name="colorPrimary">@color/colorPrimary</item>
+            <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+            <item name="colorOnPrimary">@color/colorWhite</item>
+        </style>
+
+
+        <style name="textStyle" parent="ThemeOverlay.AppCompat">
+            <item name="android:fontFamily">@font/andika</item>
+            <item name="android:textColor">@color/colorBlack</item>
+            <item name="android:textSize">18sp</item>
+        </style>
+
+    <style name="textStyleVideoItem" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="textStyleColorPrimary" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="textStyleWhite" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="textStyleWarn" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/colorOrange</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="BottomSheetTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_down</item>
+    </style>
+
+    <style name="ButtonStyle" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">20sp</item>
+        <item name="android:paddingEnd">20sp</item>
+    </style>
+
+    <style name="ButtonPasteStyle" parent="ThemeOverlay.AppCompat">
+        <item name="android:fontFamily">@font/andika</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingStart">20sp</item>
+        <item name="android:paddingEnd">20sp</item>
+    </style>
+
+    <style name="tab_text" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/andika</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" >
+        <item name="android:fontFamily">@font/andika</item>
+    </style>
+
+    <style name="bottomNavigationView"
+        parent="Widget.Design.BottomNavigationView">
+        <item name="fontFamily">@font/andika</item>
+    </style>
+
+
+    <style name="roundedImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">10dp</item>
+    </style>
+
+
+</resources>

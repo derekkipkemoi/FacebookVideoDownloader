@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:maxads="http://schemas.applovin.com/android/1.0">
+
+    <FrameLayout
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:padding="20dp"
+        android:layout_height="match_parent">
+
+
+        <!-- Tab Layout for creating tabs -->
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/top_shape_navigation"
+            app:tabIconTint="@color/colorWhite"
+            app:tabInlineLabel="true"
+            app:tabMaxWidth="0dp"
+            app:tabSelectedTextColor="@color/colorWhite"
+            app:tabTextAppearance="@style/tab_text"
+            app:tabTextColor="@color/colorBlack" />
+        <!-- Helps handing the Fragments for each Tab -->
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_marginTop="50dp"
+            android:id="@+id/viewPager2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.ads.nativetemplates.TemplateView
+                android:id= "@+id/nativeTemplateView"
+                app:gnt_template_type= "@layout/gnt_small_template_view"
+                android:layout_width= "match_parent"
+                android:layout_height= "wrap_content" />
+            <android.widget.Button
+                android:id="@+id/button_got_it"
+                style="@style/ButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/how_to_use_background_button"
+                android:text="@string/got_it" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </FrameLayout>
+
+</layout>
